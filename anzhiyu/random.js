@@ -1,3 +1,3 @@
-var posts=["2025/04/19/关于cname的Nginx报错NotFound问题/","2025/04/21/若依业务流水号生成/","2025/04/19/TODO/index/","2025/04/19/编辑器配置/VsCode配置Markdown语法格式化/","2025/04/18/编辑器配置/idea2024终端和配置Bash终端/","2025/04/13/博客/Hexo博客搭建/","2025/04/13/博客/兰空图床+Picgo+Typora+服务器个人图床/","2025/04/19/项目经历/龙腾管理系统/龙腾管理系统/","2025/04/19/技术/全栈/若依帝可得笔记/"];function toRandomPost(){
+var posts=["2025/04/19/关于cname的Nginx报错NotFound问题/","2025/04/21/若依业务流水号生成/","2025/04/13/博客/Hexo博客搭建/","2025/04/19/TODO/index/","2025/04/13/博客/兰空图床+Picgo+Typora+服务器个人图床/","2025/04/19/编辑器配置/VsCode配置Markdown语法格式化/","2025/04/18/编辑器配置/idea2024终端和配置Bash终端/","2025/04/19/项目经历/龙腾管理系统/龙腾管理系统/","2025/04/19/技术/全栈/若依帝可得笔记/"];function toRandomPost(){
     pjax.loadUrl('/'+posts[Math.floor(Math.random() * posts.length)]);
   };
